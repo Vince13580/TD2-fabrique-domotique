@@ -23,10 +23,16 @@ public class AppliDomotique {
     public static void connecter(int type) {
         switch (type) {
             case 1:
-                /* A completer */
+                Cafetière cafetière = new Cafetière();
+                cafetière.activer();
+                cafetière.equiper("un machin");
+
+
                 break;
             case 2:
-                /* A completer */
+                Radio radio = new Radio();
+                radio.activer();
+                radio.equiper("un truc");
                 break;
         }
     }
